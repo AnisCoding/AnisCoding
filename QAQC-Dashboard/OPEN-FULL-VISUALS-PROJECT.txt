@@ -4,7 +4,7 @@ This is a LEGACY-FORMAT Power BI PROJECT, not a PBIX binary. It contains native 
 
 1. Extract fully into a NEW folder.
 2. Open RCRC DIRAB LEGACY.pbip in Desktop, with PBIR storage disabled.
-3. Refresh from SharePoint. Existing queries and source paths are preserved; no credentials or local cache are included.
+3. Refresh from SharePoint. Existing source paths are preserved; the turnaround query adds an imported band sort column; no credentials or local cache are included.
 4. Review the nine QA/QC pages: Overview, SLA, Closure, Trends, Registers, Data Quality, Day Limits, Limit Charts, Design Review.
 5. Save As a new *.pbix. Test the new report separately before replacing the working server item.
 
@@ -16,4 +16,4 @@ All example visual families are represented: 14 executive KPIs; six-register SLA
 Summary rows are excluded from summation. Day-limit and SLA scopes remain separate. Within percentages are recomputed from numeric counts. MIR day-limit conflicts and NCR cross-block discrepancies remain visible. Source assertions about raw-register comparisons were not independently verified. Monthly periods are not certified data-as-of dates. Aggregate sources do not support record-level drill-through.
 
 VALIDATION
-Local report/query/reference/layout/ZIP checks passed. Existing SharePoint partition text remains unchanged. Power BI Desktop rendering, DAX execution, live refresh and Report Server upload of this expanded version remain untested. The previously working legacy format is retained, but only an actual upload confirms server acceptance.
+Local report/query/reference/layout/ZIP checks passed. SharePoint source selections remain unchanged. The turnaround query adds a numeric sort column in Power Query to avoid a DAX circular dependency. Power BI Desktop rendering, DAX execution, live refresh and Report Server upload of this expanded version remain untested. The previously working legacy format is retained, but only an actual upload confirms server acceptance.
