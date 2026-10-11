@@ -1,0 +1,54 @@
+{
+  "name": "DIRAB QAQC",
+  "dataColors": [
+    "#1D3A52",
+    "#638DB8",
+    "#8B9CAA",
+    "#32CDBD",
+    "#D44837",
+    "#E7A227"
+  ],
+  "background": "#EEF0EE",
+  "foreground": "#1D3A52",
+  "tableAccent": "#32CDBD",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#1D3A52"
+              }
+            },
+            "fontSize": 14,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#D6DBD8"
+              }
+            },
+            "radius": 10
+          }
+        ]
+      }
+    }
+  }
+}

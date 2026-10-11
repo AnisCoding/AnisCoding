@@ -1,0 +1,50 @@
+Total Logged =
+SUM(Portfolio[Total Logged])
+
+Total Closed =
+SUM(Portfolio[Closed])
+
+Withdrawn =
+SUM(Portfolio[Withdrawn])
+
+Open Items =
+[Total Logged] - [Total Closed] - [Withdrawn]
+
+Closure Rate =
+DIVIDE([Total Closed], [Total Logged] - [Withdrawn])
+
+SLA Measured =
+SUM(SLA[Measured])
+
+Within Target =
+SUM(SLA[Within Target])
+
+SLA Compliance =
+DIVIDE([Within Target], [SLA Measured])
+
+Missing Close Dates =
+SUM(SLA[No Close Date])
+
+Submittals Raised =
+CALCULATE(SUM(SLA[Raised]), FILTER(SLA, LEFT(SLA[Register], 3) IN {"WIR", "MIR", "SHD", "RFI"}))
+
+Open NCRs =
+CALCULATE(SUM(SLA[Open]), FILTER(SLA, LEFT(SLA[Register], 3) = "NCR"))
+
+Open SORs =
+CALCULATE(SUM(SLA[Open]), FILTER(SLA, LEFT(SLA[Register], 3) = "SOR"))
+
+SHD Raised =
+CALCULATE(SUM(SLA[Raised]), FILTER(SLA, LEFT(SLA[Register], 3) = "SHD"))
+
+SHD Closed =
+CALCULATE(SUM(SLA[Closed]), FILTER(SLA, LEFT(SLA[Register], 3) = "SHD"))
+
+SHD Open =
+CALCULATE(SUM(SLA[Open]), FILTER(SLA, LEFT(SLA[Register], 3) = "SHD"))
+
+SHD SLA =
+CALCULATE([SLA Compliance], FILTER(SLA, LEFT(SLA[Register], 3) = "SHD"))
+
+Approval Index =
+DIVIDE(SUM(Portfolio[Code A]) + SUM(Portfolio[Code B]), SUM(Portfolio[Code A]) + SUM(Portfolio[Code B]) + SUM(Portfolio[Code C]) + SUM(Portfolio[Rejected]))

@@ -1,0 +1,10 @@
+{
+  "portfolio_total": 2486,
+  "portfolio_closed": 1950,
+  "withdrawn": 146,
+  "sla_raised": 1847,
+  "sla_measured": 1368,
+  "sla_within": 1343,
+  "missing_close_dates": 121,
+  "status": "Local snapshot arithmetic passed; native Power BI refresh/render untested"
+}

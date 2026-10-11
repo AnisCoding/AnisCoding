@@ -1,0 +1,17 @@
+﻿Metric,Value
+Total logged items (all registers),2486
+Submittals raised (WIR+MIR+SHD+RFI),1576
+SOR raised,237
+NCR raised,34
+Total closed,1950
+Total open / under review,390
+Overall SLA compliance %,0.9817251461988304
+Measured closures (with close date),1368
+Closed without a close date,121
+Open NCRs,27
+Open SORs,93
+Approval index (A+B) / reviewed,0.986046511627907
+Avg WIR turnaround (days),1.6
+Avg MIR turnaround (days),1.63
+Avg SHD turnaround (days),6.01
+Avg RFI turnaround (days),5.38

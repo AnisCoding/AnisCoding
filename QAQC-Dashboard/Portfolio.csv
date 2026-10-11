@@ -1,0 +1,25 @@
+﻿Register,Total Logged,Code A,Code B,Code C,Acknowledged,Rejected,Returned,Withdrawn,Under Review / Open,Closed
+WIR — Work Inspection Request,710,53,567,2,0,3,53,21,11,620
+MIR — Material Inspection Request,205,0,183,1,0,0,7,12,2,183
+SHD — Shop Drawings,524,115,317,4,0,0,26,40,22,432
+RFI — Request for Information,137,0,0,0,0,0,5,19,4,109
+MAS — Material Submittals,157,0,91,6,0,0,37,18,5,91
+PQD — Prequalification Documents,110,3,80,2,0,1,14,9,1,83
+Test Reports,149,23,96,2,0,0,15,11,2,119
+CAL — Calibration Certificates,86,6,68,0,0,0,4,4,4,74
+MET — Method Statements,37,0,31,1,0,0,3,2,0,31
+ITP — Inspection & Test Plans,16,0,14,0,0,0,2,0,0,14
+Plans & Procedures,29,2,19,1,0,0,7,0,0,21
+Technical Reports,32,0,19,1,4,0,6,1,1,19
+WSN — Work Site Notifications,9,0,5,0,0,0,1,3,0,5
+DAR's Submittals,14,0,4,0,8,0,0,0,2,4
+SOR — Civil,3,0,0,0,0,0,0,0,2,1
+SOR — Electrical,6,0,0,0,0,0,0,0,6,0
+SOR — Traffic,37,0,0,0,0,0,0,0,37,0
+SOR — Quality Management,28,0,0,0,0,0,0,1,7,20
+SOR — HSE,163,0,0,0,0,0,0,5,42,117
+NCR — Structural,5,0,0,0,0,0,0,0,5,0
+NCR — Electrical,4,0,0,0,0,0,0,0,4,0
+NCR — HSE,12,0,0,0,0,0,0,0,10,2
+NCR — Quality Management,4,0,0,0,0,0,0,0,1,3
+NCR — Temporary Traffic Mgmt,9,0,0,0,0,0,0,0,7,2

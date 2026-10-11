@@ -1,0 +1,12 @@
+﻿Register,Day Limit,Closed,Within Limit,Exceeded Limit,No Close Date,% Within Limit
+WIR — Work Inspection Request,2,620,617,3,0,0.9951612903225806
+MIR — Material Inspection Request,3,183,180,3,0,0.9836065573770492
+RFI — Request for Information,14,109,106,1,2,0.9906542056074766
+CR — Change Request,14,14,14,0,0,1
+IPC — Interim Payment Request,14,4,4,0,0,1
+Project Baseline & Schedule,14,2,2,0,0,1
+SHD — Shop Drawing,14,432,431,1,0,0.9976851851851852
+PQD — Pre-Qualification,14,83,82,1,0,0.9879518072289156
+MAS — Material Submittal,14,91,89,1,1,0.9888888888888889
+ITP — Inspection & Test Plan,14,14,14,0,0,1
+MET — Method Statement,14,31,31,0,0,1

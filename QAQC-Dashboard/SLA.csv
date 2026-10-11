@@ -1,0 +1,15 @@
+﻿Register,Target (days),Raised,Closed,Open,Withdrawn,Measured,Within Target,Exceeded,No Close Date,% Within
+WIR — Work Inspection Request,2,710,620,69,21,620,617,3,0,0.9951612903225806
+MIR — Material Inspection Request,3,205,183,10,12,183,182,1,0,0.994535519125683
+SHD — Shop Drawings,14,524,432,52,40,432,431,1,0,0.9976851851851852
+RFI — Request for Information,14,137,109,9,19,107,106,1,2,0.9906542056074766
+SOR — Civil,7,3,1,2,0,1,0,1,0,0
+SOR — Electrical,7,6,0,6,0,0,0,0,0,
+SOR — Traffic,7,37,0,37,0,0,0,0,0,
+SOR — Quality Management,7,28,20,7,1,16,5,11,4,0.3125
+SOR — HSE,7,163,117,41,5,2,2,0,115,1
+NCR — Structural,30,5,0,5,0,0,0,0,0,
+NCR — Electrical,30,4,0,4,0,0,0,0,0,
+NCR — HSE,30,12,2,10,0,2,0,2,0,0
+NCR — Quality Management,30,4,3,1,0,3,0,3,0,0
+NCR — Temporary Traffic Mgmt,30,9,2,7,0,2,0,2,0,0
