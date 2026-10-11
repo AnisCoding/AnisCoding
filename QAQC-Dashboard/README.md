@@ -1,4 +1,10 @@
-# DIRAB QA/QC implementation package — draft
+# DIRAB QA/QC dashboard projects
+
+**Full visualization redesign:** Download [Dirab-QAQC-Full-Visuals-Legacy.zip](Dirab-QAQC-Full-Visuals-Legacy.zip). Nine QA/QC pages recreate the supplied visualization families using the original navy frame, white panels, logos and sidebar. These are native editable Power BI visuals. The other 17 pages and all original SharePoint query partitions are preserved.
+
+Extract into a new folder, keep PBIR storage disabled, open `RCRC DIRAB LEGACY.pbip`, refresh, then save a new PBIX. See [opening instructions](OPEN-FULL-VISUALS-PROJECT.txt). Local schema/reference checks passed; Desktop rendering, refresh and server upload of this expanded project still need testing. MIR target conflicts and NCR source discrepancies are shown on the Data Quality page.
+
+## Earlier packages
 
 **Report Server repair candidate:** The previous PBIR export differed from the working original PBIX. Download [Dirab-QAQC-Legacy-Project.zip](Dirab-QAQC-Legacy-Project.zip) for the QA/QC pages in the original legacy `report.json` structure. Disable the PBIR storage preview option before opening this project, refresh SharePoint, and save a new PBIX. See [legacy opening instructions](OPEN-LEGACY-PROJECT.txt). This candidate passes local structural checks; Desktop export and Report Server upload remain unverified.
 
