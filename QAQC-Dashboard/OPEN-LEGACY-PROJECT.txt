@@ -1,0 +1,30 @@
+DIRAB QA/QC — LEGACY REPORT-FORMAT REPAIR CANDIDATE
+
+This package is a complete editable Power BI project using report.json (legacy/PBIR-Legacy), not the newer Report/definition PBIR pages. It is NOT a PBIX binary and has not been tested in Power BI Desktop or Report Server.
+
+OPENING AND SAVING
+1. Extract the entire ZIP to a NEW folder. Do not merge with the previous PBIR project.
+2. In the regular Power BI Desktop you used for the working original report, go to File > Options and settings > Options > Preview features. Turn OFF "Store reports using enhanced metadata format (PBIR)" if available. Restart Desktop. Leave TMDL support enabled if needed.
+3. Open RCRC DIRAB LEGACY.pbip. The project has report.json plus definition.pbir version 1.0 and the complete semantic-model definition.
+4. Refresh and sign in to the existing SharePoint source if prompted. Confirm the three QA/QC pages and their values.
+5. File > Save As > Power BI file (*.pbix). Save under a NEW name, RCRC DIRAB QAQC LEGACY.pbix.
+6. Before replacing a server report, test this new file in Desktop for Report Server matching your server release, then upload to a separate test item on Report Server. Report Server Desktop may not open PBIP projects directly; use it to check the saved PBIX.
+7. If upload still fails, send the newly saved PBIX and the server log/error details. A PBIX containing Report/Layout instead of Report/definition would confirm the report-format repair, but not prove full server feature compatibility.
+
+WHAT CHANGED
+- Original working PBIX was read ONLY; no PBIX/PBIT binary was rewritten.
+- Its legacy report structure, resource registry, custom visuals and 17 non-QAQC pages were preserved.
+- Three QA/QC pages were serialized into legacy visual configs, semantic prototype/runtime queries, bindings, and dataTransforms.
+- Original SharePoint routes and existing model queries remain unchanged; the QA/QC measures and short register label remain in the model.
+- No user-local .pbi settings or data caches are included. First open needs SharePoint refresh.
+
+VALIDATION PERFORMED LOCALLY
+- Valid project JSON and relative report/model links.
+- 20 pages total; all 17 non-QAQC pages unchanged.
+- All registered resources exist.
+- QA/QC projection names, source aliases, query bindings and dataTransform indexes resolve consistently.
+- Semantic-model files match the previously validated edited project.
+- ZIP integrity passed.
+
+VALIDATION STILL REQUIRED
+Power BI Desktop project loading, visual rendering, DAX execution, SharePoint refresh, PBIX export format and Report Server acceptance. This is a repair candidate, not a verified server-compatible PBIX.

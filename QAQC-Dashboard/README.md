@@ -1,5 +1,7 @@
 # DIRAB QA/QC implementation package — draft
 
+**Report Server repair candidate:** The previous PBIR export differed from the working original PBIX. Download [Dirab-QAQC-Legacy-Project.zip](Dirab-QAQC-Legacy-Project.zip) for the QA/QC pages in the original legacy `report.json` structure. Disable the PBIR storage preview option before opening this project, refresh SharePoint, and save a new PBIX. See [legacy opening instructions](OPEN-LEGACY-PROJECT.txt). This candidate passes local structural checks; Desktop export and Report Server upload remain unverified.
+
 **Edited native Power BI project:** Download [Dirab-QAQC-Edited-Project.zip](Dirab-QAQC-Edited-Project.zip), extract it fully, open `RCRC DIRAB.pbip` in Power BI Desktop, refresh your SharePoint data, then Save As `*.pbix`. The ZIP contains actual report/model definitions for three QA/QC pages, not just images. Desktop validation remains outstanding. See [opening instructions](OPEN-EDITED-PROJECT.txt).
 
 ![Dashboard preview](QAQC-preview.png)
