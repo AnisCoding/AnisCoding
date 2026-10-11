@@ -1,0 +1,30 @@
+DIRAB QA/QC — EDITED POWER BI PROJECT
+
+OPEN AND SAVE AS PBIX
+1. Extract this ZIP completely into a new folder on Windows.
+2. Open RCRC DIRAB.pbip in a current Power BI Desktop installation.
+3. Refresh. Sign in to your existing SharePoint source with your Organizational account if prompted.
+4. Select the QA/QC, QA/QC Design Reviews, or QA/QC SLA Scorecard page (the navigation buttons also connect these pages).
+5. File > Save As > Power BI files (*.pbix). Save as RCRC DIRAB QAQC.pbix.
+
+This is an edited PBIP project, NOT a PBIX binary. No file has merely been renamed to PBIX.
+
+CHANGES
+- Populated the existing QA/QC branded page with six KPIs, closure and SLA gauges, open-action cards, register progress, monthly submittals, and design-review status.
+- Added Design Reviews and SLA Scorecard pages with the same frame, logos, colors and navigation.
+- Added 85 model measures and a short register-code column.
+- Kept existing SharePoint query partitions, source routes, and all other report pages unchanged.
+- Removed user-local .pbi state and data caches from the distribution, so the first opening requires a refresh. They remain untouched in the original user project.
+
+VALIDATION
+- All changed JSON definitions pass Microsoft's official report schemas (115 files).
+- Every new visual field resolves to a model column or measure.
+- Existing partition/query text is unchanged.
+- Local Excel arithmetic: 2,486 logged; 1,950 closed; 146 withdrawn; 390 open; 1,343 within / 1,368 measured = 98.17% SLA; 121 missing closure dates.
+- Power BI Desktop rendering, DAX execution and SharePoint refresh have NOT been run in this Linux environment. The project remains a draft until those Desktop checks succeed.
+
+METRIC DEFINITIONS
+Closure excludes withdrawn items. SLA excludes missing closure dates. Open actions are not overdue counts. Design pages show SHD/RFI review status, not planned-versus-actual design completion. SLA uses workbook Block 1; contradictory MIR counts/day limits in Block 12 are not used. Percentages are recomputed from numeric counts, not the imported text percentage columns.
+
+INTERACTION
+The source tables contain aggregate summaries at different grains. Charts do not imply record-level drill-through or cross-table date filtering. New charts keep drillFilterOtherVisuals disabled to avoid misleading interactions between independent aggregate tables.

@@ -1,5 +1,7 @@
 # DIRAB QA/QC implementation package — draft
 
+**Edited native Power BI project:** Download [Dirab-QAQC-Edited-Project.zip](Dirab-QAQC-Edited-Project.zip), extract it fully, open `RCRC DIRAB.pbip` in Power BI Desktop, refresh your SharePoint data, then Save As `*.pbix`. The ZIP contains actual report/model definitions for three QA/QC pages, not just images. Desktop validation remains outstanding. See [opening instructions](OPEN-EDITED-PROJECT.txt).
+
 ![Dashboard preview](QAQC-preview.png)
 
 Download the complete package using **Dirab-QAQC-package.zip → Download raw file** on GitHub. Open QAQC-preview.png in your image viewer, or extract the ZIP and open QAQC-preview.html in your browser.
