@@ -1,5 +1,7 @@
 # DIRAB QA/QC dashboard projects
 
+**Simplified HSE (latest):** [Download Dirab-HSE-Three-Pages.zip](Dirab-HSE-Three-Pages.zip). Exactly three HSE pages: your existing HSE unchanged, NCR cards/monthly backlog/type charts, and incident/safety cards with the three requested trend charts. Extract, open the PBIP with PBIR disabled, refresh, then save as PBIX.
+
 **HSE extension:** [Download Dirab-HSE-Extension-Legacy.zip](Dirab-HSE-Extension-Legacy.zip). Adds six branded pages for NCR overview/actions, weekly/monthly incidents, safety rates and pending SOR/inspection inputs. All 22 existing pages, including the original HSE page, and all 127 original table files are unchanged. See [opening instructions](OPEN-HSE-EXTENSION.txt). Extract, open the PBIP with PBIR storage disabled, refresh SharePoint, and save as PBIX. Local checks passed; Desktop execution and server upload remain untested.
 
 **Full visualization redesign:** Download [Dirab-QAQC-Full-Visuals-Legacy-Fixed.zip](Dirab-QAQC-Full-Visuals-Legacy-Fixed.zip). Nine QA/QC pages recreate the supplied visualization families using the original navy frame, white panels, logos and sidebar. These are native editable Power BI visuals. The other 17 pages and SharePoint source connections are preserved; the turnaround query now imports its sort column to avoid a circular dependency.

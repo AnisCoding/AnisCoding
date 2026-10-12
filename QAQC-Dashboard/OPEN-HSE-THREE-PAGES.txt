@@ -1,0 +1,5 @@
+HSE — THREE PAGES TOTAL
+Your existing HSE page is unchanged. Added pages: HSE NCR; HSE Incidents & Safety.
+Extract into a new folder. Keep PBIR disabled. Open RCRC DIRAB LEGACY.pbip, refresh SharePoint, then Save As PBIX.
+Charts use supplied raw data: 22 category event entries, not the illustrated 17. NCR backlog is historical month-end, not current open status. Current overdue aging updates on refresh. Safety rate basis is 200,000 hours.
+Desktop rendering, refresh and server upload remain untested.
