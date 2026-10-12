@@ -1,0 +1,8 @@
+HSE EXTENSION — NATIVE LEGACY POWER BI PROJECT
+Extract into a new folder. Keep PBIR storage disabled. Open RCRC DIRAB LEGACY.pbip, refresh SharePoint, review the six new HSE pages and Save As a new PBIX.
+Original HSE page and all other existing report sections are unchanged. Original table files and source partitions are unchanged. Five additional imported tables normalize raw weekly/NCR records using the existing SharePoint workbook location. No credentials/cache are included.
+NCR aging is as of refresh date, not the workbook historical snapshot. Monthly raised uses issue dates; monthly closed uses close dates. Safety rates use an explicit 200,000-hour assumption requiring confirmation. SOR and daily inspection databases remain pending.
+Local structural checks passed. Desktop rendering, DAX execution, live refresh and Report Server upload remain untested.
+
+Weekly charts exclude blank future weeks. Contractor/PMCM scope, incident type and month dropdowns are available on the trend pages. Event entries are a sum of category counts, not a deduplicated incident register. The supplied snapshot has 12 referenced NCR records (9 closed); future SharePoint refreshes may differ.
+

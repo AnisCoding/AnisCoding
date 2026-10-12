@@ -1,5 +1,7 @@
 # DIRAB QA/QC dashboard projects
 
+**HSE extension:** [Download Dirab-HSE-Extension-Legacy.zip](Dirab-HSE-Extension-Legacy.zip). Adds six branded pages for NCR overview/actions, weekly/monthly incidents, safety rates and pending SOR/inspection inputs. All 22 existing pages, including the original HSE page, and all 127 original table files are unchanged. See [opening instructions](OPEN-HSE-EXTENSION.txt). Extract, open the PBIP with PBIR storage disabled, refresh SharePoint, and save as PBIX. Local checks passed; Desktop execution and server upload remain untested.
+
 **Full visualization redesign:** Download [Dirab-QAQC-Full-Visuals-Legacy-Fixed.zip](Dirab-QAQC-Full-Visuals-Legacy-Fixed.zip). Nine QA/QC pages recreate the supplied visualization families using the original navy frame, white panels, logos and sidebar. These are native editable Power BI visuals. The other 17 pages and SharePoint source connections are preserved; the turnaround query now imports its sort column to avoid a circular dependency.
 
 Extract into a new folder, keep PBIR storage disabled, open `RCRC DIRAB LEGACY.pbip`, refresh, then save a new PBIX. See [opening instructions](OPEN-FULL-VISUALS-PROJECT.txt). Local schema/reference checks passed; Desktop rendering, refresh and server upload of this expanded project still need testing. MIR target conflicts and NCR source discrepancies are shown on the Data Quality page.
