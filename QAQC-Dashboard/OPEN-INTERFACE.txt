@@ -1,0 +1,4 @@
+INTERFACE & STAKEHOLDER DASHBOARD
+Extract into a NEW folder. Keep PBIR storage disabled. Open RCRC DIRAB LEGACY.pbip, refresh SharePoint, and review the six Interface pages using the top navigation buttons. Save As PBIX after checking.
+Uses existing Interface aggregate track, stakeholder, methodology and action tables. Original SharePoint partition text and all non-Interface report sections are preserved. No reference presentation counts are hardcoded. Closure = Closed / Stakeholders; the reference presentation 83% complete claim is not treated as a verified closure metric. Methodology shows source step statuses; no inference of completed steps is made. Track summary counts may differ from displayed stakeholder groups, which can combine several stakeholders.
+Local definitions/references checked; Desktop rendering, DAX execution, SharePoint refresh and Report Server upload remain untested.
