@@ -1,0 +1,10 @@
+LATEST QA/QC WORKBOOK — STABLE HEADERS
+All 18 blocks, data values, non-header formulas, charts, styling and worksheet positions from the latest supplied workbook are retained. Only 16 formula-based column headers are replaced by their current displayed text.
+
+Blocks 1–3, 5–11, 14: existing column names unchanged.
+Block 12: new column H160 = Open (linked / input).
+Blocks 4 and 13: column names retained, but Outcome rows now mean Closed / Open / Total (closed + open), not Within Target / Exceeded Target / No Close Date. Update Power BI calculations accordingly.
+Blocks 15–18 are included unchanged: gauge feed; closed/open gauge source; review-status feed; weekly quality index.
+
+The supplied workbooks contain no named Excel Tables. Power BI queries that require named tables (Table1, Table2, etc.) must be checked; stable column headers alone do not guarantee compatibility.
+If day limits change later, the fixed header names will intentionally stay the same; use the numeric day-limit fields as the authoritative limits.
